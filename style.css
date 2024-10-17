@@ -1,0 +1,259 @@
+
+body{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(221, 221, 221);
+}
+
+.complete-grid{
+    display: flex;
+    max-width: 800px;
+    gap: 12px;
+}
+
+.first-column{
+    display: grid;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1, 1 auto;
+    max-height: 406;
+}
+
+.right-side-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.middle-up-container{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.inner-middle-wrapper{
+    display: flex;
+    gap: 12px;
+}
+
+.wrapper2-top{
+    display: flex;
+    gap: 12px;
+}
+
+.bottom-wrapper{
+    display: flex;
+    gap: 12px;
+
+}
+
+.container1{
+    max-width: 120px;
+    height: 203px;
+    padding: 24px;
+    background-color: hsl(31, 66%, 93%);
+    border-radius: 14px;
+}
+
+.container1-header{
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 95px;
+    margin-bottom: 20px;
+    color: hsl(0, 0%, 7%);
+}
+
+.container1-header span {
+    font-style: italic;
+    color: hsl(256, 67%, 59%);;
+}
+
+.image-button{
+    max-width: 120px;
+    height: auto;
+}
+
+.container2{
+    max-width: 120px;
+    max-height: 220px;
+    padding: 24px;
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 14px;
+}
+
+.container2-header{
+    font-size: 18px;
+    font-weight: 600;
+    max-width: 95px;
+    margin-top: 0px;
+    color: hsl(0, 0%, 7%);
+}
+
+.AI-image{
+    max-width: 130px;
+    height: auto;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    max-height: 130px;
+    padding: 24px;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 14px;
+}
+
+.container3-header{
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    max-width: 200px;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.container3-header span{
+    color: hsl(39, 100%, 71%);
+}
+
+.container3 p{
+    font-size: 0.75rem;
+    color: white;
+    margin-top: 0.25rem;
+}
+
+.image-stars{
+    max-width: 120px;
+    height: auto;
+}
+
+.container4{
+    max-width: 120px;
+    max-height: 120px;
+    padding: 24px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.container4-header{
+    font-size: 17px;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+    margin-top: 0rem;
+}
+
+.multiple-platform-image{
+    max-width: 180px;
+    height: auto;
+}
+
+.container5{
+    max-width: 120px;
+    max-height: 120px;
+    padding: 24px;
+    background-color: hsl(39, 100%, 71%);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.container5-header{
+    font-size: 17px;
+    font-weight: 600;
+    color: hsl(0, 0%, 7%);
+    max-width: 120px;
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
+}
+
+.posting-schedule{
+    max-width: 130px;
+    height: auto;
+}
+
+.container6{
+    max-width: 120px;
+    max-height: 308px;
+    padding: 24px;
+    background-color: hsl(254, 50%, 87%);
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.container6-header{
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+
+.schedule-image{
+    margin-top: 0px;
+    min-width: 180px;
+    max-height: 200px;
+}
+
+.container6 p{
+    font-size: 0.75rem;
+    font-weight: 400;
+    max-width: 130px;
+    margin-top: 8px;
+}
+
+.container7{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-width: 120px;
+    max-height: 120px;
+    padding: 24px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 14px;
+}
+
+.container7-header{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0rem;
+    margin-bottom: 0;
+}
+
+.container7 p{
+    font-size: 0.75rem;
+    margin-top: 0rem;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 7%);
+}
+
+.faster-audience{
+    max-width: 100px;
+    height: auto;
+}
+
+.container8{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    max-width: 300px;
+    max-height: 120px;
+    padding: 24px;
+    background-color: hsl(256, 67%, 59%);
+    border-radius: 14px;
+}
+
+.container8-header{
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+}
+
+.grow-followers{
+    max-width: 135px;
+    max-height: 135px;
+    height: auto;
+}
